@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/bin/env python3
 
 # Reading data from the user's input
 a = input("Enter a : ")
@@ -19,19 +19,22 @@ print("What is", a, "now?", type(a))
 print("What is", b, "now?", type(a))
 
 
-total = (type(a) + type(b))
+total = a + b
 print("a + b =", total, ", which is a", type(total))
 
 difference = a - b
 print("a - b =", difference, ", which is a", type(difference))
 
 product = a * b
+
 print("a * b =", product, ", which is a", type(product))
 
 quotient = a / b
+
 print("a / b =", quotient, ", which is a", type(quotient))
 
 floor_quotient = a // b
+
 print("a // b =",
         floor_quotient,
         ", which is a",
@@ -59,7 +62,7 @@ print("Now \"b\" equals", b, "and is a", type(b))
 
 
 total = a + b
- print("a + b =", total, ", which is a", type(total))
+print("a + b =", total, ", which is a", type(total))
 
 difference = a - b
 print("a - b =", difference, ", which is a", type(difference))
