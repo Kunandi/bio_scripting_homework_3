@@ -16,10 +16,8 @@ echo "Multiplication of a and b is ${mul}"
 div=`echo "$((a / b))"`
 echo "division of a and b is ${div}"
 
-            mod
-    = $((a % b))
-          echo Modulus of a
-      and b is $mod
+mod=`echo "$((a % b))"`
+echo "Modulus of a and b is ${mod}"
 
       ((++a))
           echo Increment
