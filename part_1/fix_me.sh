@@ -4,25 +4,24 @@
 read -p "Enter a : " a
 read -p "Enter b : " b
 
-add=`echo "${a}+${b}" | bc`
+add=`echo "$((a+b))"`
 echo "Addition of a and b is ${add}"
 
-            sub
-    = $((a - b))
-        echo Subtraction of a and b are $sub
+sub=`echo "$((a - b))"`
+echo "Subtraction of a and b is ${sub}"
 
             mul
     = $((a * b))
-        echo Multiplication of a and b are $mul
+        echo Multiplication of a and b is $mul
 
             div
     = $((a / d))
-        echo division of a and b are $div
+        echo division of a and b is $div
 
             mod
     = $((a % b))
           echo Modulus of a
-      and b are $mod
+      and b is $mod
 
       ((++a))
           echo Increment
