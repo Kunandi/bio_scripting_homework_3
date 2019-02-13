@@ -10,9 +10,8 @@ echo "Addition of a and b is ${add}"
 sub=`echo "$((a - b))"`
 echo "Subtraction of a and b is ${sub}"
 
-            mul
-    = $((a * b))
-        echo Multiplication of a and b is $mul
+mul=`echo "$((a * b))"`
+echo "Multiplication of a and b is ${mul}"
 
             div
     = $((a / d))
